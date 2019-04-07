@@ -1,7 +1,19 @@
 ---
 title: "Min fina titel"
 ---
+
 Min me-sida i kursen oophp
+=========================
+
+[FIGURE src="image/rep.jpg?w=390&sharpen" class="right""]
+
+Mitt namn är Marie. Jag är här pga. att jag kom på att det skulle vara roligt att jobba inom IT, särskilt med att skapa. Det enda problemet med det var att den enda erfarenheten jag hade med datorer var att surfa på nätet så jag kände mig lite osäker om jag skulle våga men än så länge så går det bra.
+
+Skulle nog inte säga att jag har någon direkt hobby men något som jag gillar att göra är t.ex. testa recept, speciellt vegetariska recept. För tillfället är det recept med sjögräs och granatäpple som intresserar mig.
+
+
+
+<!-- Min me-sida i kursen oophp
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
@@ -24,4 +36,4 @@ Vill du läsa mer om vad jag jobbat med så kan du kika på min [Linkedin-profil
 
 Vi syns och hörs i forum och chatt!
 
-/Mikael
+/Mikael -->

@@ -34,3 +34,22 @@ h1 {
     font-family: 'Indie Flower', cursive;
     border-bottom: 1px solid #A9A9A9;
 }
+
+.restartButton {
+	color: black;
+}
+
+.restartButton a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.restartButton2 {
+	color: black;
+}
+
+.restartButton2 a {
+	color: black;
+	text-decoration: none;
+}

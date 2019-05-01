@@ -133,4 +133,12 @@ class DiceHandObjectTest extends TestCase
         // checks if they are equal
         $this->assertEquals($sum, $res2);
     }
+
+    /**
+     * test check roll method
+     */
+    /*public function testCheckR()
+    {
+
+    }*/
 }

@@ -4,10 +4,10 @@ namespace Ame\Dice;
 /**
  *  dicehand, a class supporting the game. Handles the combined dices
  */
-class DiceHand
+class DiceHand extends Dice implements HistogramInterface
 {
 
-
+    use HistogramTrait2;
     /**
      * @var Dice $dices   Array consisting of dices.
      * @var int  $values  Array consisting of last roll of the dices.
@@ -18,6 +18,9 @@ class DiceHand
     private $values;
     private $playerScore;
     private $computerScore;
+
+    // test
+    //private $serie = [];
 
     /**
      * Constructor to initiate the dicehand with a number of dices
@@ -130,5 +133,27 @@ class DiceHand
             $sum = $sum + $this->values[$x];
         }
         return $sum;
+    }
+
+
+    /**
+    * checks if computer should continue to play or save score
+    * @param int $tempScore contains computers temporary score that has not
+    * not yet been added to the computers permanent score
+    * @return int $res 0 if computer should continue to play
+    */
+    public function checkComputerContinue($tempScore)
+    {
+        $computer = intval($this->computerScore->getScoreComputer()) + intval($tempScore);
+        $player = intval($this->playerScore->getScorePlayer());
+        $res = null;
+        if ($player > $computer) {
+            // if players score is higer than computer
+            $res = 0;
+        } else {
+            // if computer score is higer than player or the same
+            $res = 1;
+        }
+        return $res;
     }
 }

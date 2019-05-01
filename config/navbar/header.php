@@ -65,8 +65,13 @@ return [
         ],
         [
             "text" => "Tärningsspel 100",
-            "url" => "dicegame",
+            "url" => "dice",
             "title" => "Spela tärningsspel 100",
         ],
+        /*[
+            "text" => "Tärningsspel 100",
+            "url" => "dicegame",
+            "title" => "Spela tärningsspel 100",
+        ],*/
     ],
 ];

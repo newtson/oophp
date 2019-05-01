@@ -8,7 +8,7 @@ class Dice
 {
 
     private $dice;
-    private $sides;
+    protected $sides;
 
     /**
     * Constructor to dice.

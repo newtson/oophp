@@ -26,27 +26,21 @@ för att starta datorns omgång.</p>
 if ($rolls != null || $rolls != 0) {
     $len = sizeof($rolls);
     for ($x = 0; $x < $len; $x++) : ?>
-        <i><?= strval($rolls[$x]) ?> </i>
+        <i><?= $rolls[$x] ?> </i>
     <?php endfor;
 } ?></div>
 
 
-
-<p>Poäng i potten: <?= $tempScore /*strval($tempScore)*/ ?></p>
-
+<p>Poäng i potten: <?= $tempScore ?></p>
 
 
-<?php if ($play) : ?><button class="throwDice" type="button"><a class="throwDice2" href="/~anei17/dbwebb-kurser/oophp/me/redovisa/htdocs/dice/newThrow">Kasta tärningar</a></button>
+<?php if ($play) : ?><button class="throwDice" type="button"><a class="throwDice2" href="newThrow">Kasta tärningar</a></button>
 <?php endif; ?>
 
-<?php if ($play) : ?><button class="keepScore" type="button"><a class="keepScore2" href="../dice/saveScore">Spara poängen</a></button>
+<?php if ($play) : ?><button class="keepScore" type="button"><a class="keepScore2" href="saveScore">Spara poängen</a></button>
 <?php endif; ?>
 
-<?php if ($comp) : ?><button class="computerThrow" type="button"><a class="computerThrow2" href="../dice/computerGame">Datorn kastar tärningar</a></button>
+<?php if ($comp) : ?><button class="computerThrow" type="button"><a class="computerThrow2" href="computerGame">Datorn kastar tärningar</a></button>
 <?php endif; ?>
 
-<button class="restart" type="button"><a class="restart2" href="/~anei17/dbwebb-kurser/oophp/me/redovisa/htdocs/dice/restartGame">Starta nytt spel</a></button>
-
-<h3>Histogram</h3>
-
-<pre><?= $histogramText ?></pre>
+<button class="restart" type="button"><a class="restart2" href="restartGame">Starta nytt spel</a></button>

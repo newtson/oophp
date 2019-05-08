@@ -11,7 +11,9 @@
         }
     },
     "require": {
-        "anax/anax-oophp-me": "^2.0.0@beta"
+        "anax/anax-oophp-me": "^2.0.0@beta",
+        "anax/database": "^2.2",
+        "anax/view": "^2.0"
     }
     ,
     "require-dev": {

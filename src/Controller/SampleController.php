@@ -27,7 +27,7 @@ class SampleController implements ContainerInjectableInterface
     /**
      * @var string $db a sample member variable that gets initialised
      */
-    private $db = "not active";
+   // private $db = "not active";
 
 
 

@@ -33,3 +33,18 @@
 	color: black;
 	text-decoration: none;
 }
+
+/* kmom05 */
+table, th, td {
+	border: 1px solid grey;
+	padding: 0.8em;
+	border-collapse: collapse;
+}
+
+table {
+	margin-top: 3%;
+}
+
+.formSearch {
+	margin-top: 2%;
+	}

@@ -1,6 +1,6 @@
 <?php
-
 namespace Anax\View;
+
 
 /**
  * Render content within an article.

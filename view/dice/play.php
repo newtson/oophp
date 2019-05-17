@@ -36,13 +36,19 @@ if ($rolls != null || $rolls != 0) {
 
 
 
-<?php if ($play) : ?><button class="throwDice" type="button"><a class="throwDice2" href="/~anei17/dbwebb-kurser/oophp/me/redovisa/htdocs/dice/newThrow">Kasta tärningar</a></button>
+<?php if ($play) :
+    ?>
+    <button class="throwDice" type="button"><a class="throwDice2" href="/~anei17/dbwebb-kurser/oophp/me/redovisa/htdocs/dice/newThrow">Kasta tärningar</a></button>
 <?php endif; ?>
 
-<?php if ($play) : ?><button class="keepScore" type="button"><a class="keepScore2" href="../dice/saveScore">Spara poängen</a></button>
+<?php if ($play) :
+    ?>
+    <button class="keepScore" type="button"><a class="keepScore2" href="../dice/saveScore">Spara poängen</a></button>
 <?php endif; ?>
 
-<?php if ($comp) : ?><button class="computerThrow" type="button"><a class="computerThrow2" href="../dice/computerGame">Datorn kastar tärningar</a></button>
+<?php if ($comp) :
+    ?>
+    <button class="computerThrow" type="button"><a class="computerThrow2" href="../dice/computerGame">Datorn kastar tärningar</a></button>
 <?php endif; ?>
 
 <button class="restart" type="button"><a class="restart2" href="/~anei17/dbwebb-kurser/oophp/me/redovisa/htdocs/dice/restartGame">Starta nytt spel</a></button>

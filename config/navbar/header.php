@@ -73,5 +73,20 @@ return [
             "url" => "movie",
             "title" => "Film databas",
         ],
+        [
+            "text" => "TextFilter",
+            "url" => "mytextfilter",
+            "title" => "Text filter",
+        ],
+        [
+            "text" => "Administratör",
+            "url" => "admin",
+            "title" => "admin",
+        ],
+        [
+            "text" => "Page och Post",
+            "url" => "pagepost",
+            "title" => "page och post",
+        ],
     ],
 ];

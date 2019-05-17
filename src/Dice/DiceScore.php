@@ -43,7 +43,7 @@ class DiceScore
 
     /**
     * add and saves score to computer
-    * @param int score to add and save. 
+    * @param int score to add and save.
     */
     public function saveScoreComputer(int $score)
     {

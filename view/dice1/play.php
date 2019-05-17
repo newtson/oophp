@@ -34,13 +34,19 @@ if ($rolls != null || $rolls != 0) {
 <p>Poäng i potten: <?= $tempScore ?></p>
 
 
-<?php if ($play) : ?><button class="throwDice" type="button"><a class="throwDice2" href="newThrow">Kasta tärningar</a></button>
+<?php if ($play) :
+    ?>
+    <button class="throwDice" type="button"><a class="throwDice2" href="newThrow">Kasta tärningar</a></button>
 <?php endif; ?>
 
-<?php if ($play) : ?><button class="keepScore" type="button"><a class="keepScore2" href="saveScore">Spara poängen</a></button>
+<?php if ($play) :
+    ?>
+    <button class="keepScore" type="button"><a class="keepScore2" href="saveScore">Spara poängen</a></button>
 <?php endif; ?>
 
-<?php if ($comp) : ?><button class="computerThrow" type="button"><a class="computerThrow2" href="computerGame">Datorn kastar tärningar</a></button>
+<?php if ($comp) :
+    ?>
+    <button class="computerThrow" type="button"><a class="computerThrow2" href="computerGame">Datorn kastar tärningar</a></button>
 <?php endif; ?>
 
 <button class="restart" type="button"><a class="restart2" href="restartGame">Starta nytt spel</a></button>

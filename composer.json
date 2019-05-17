@@ -13,7 +13,8 @@
     "require": {
         "anax/anax-oophp-me": "^2.0.0@beta",
         "anax/database": "^2.2",
-        "anax/view": "^2.0"
+        "anax/view": "^2.0",
+        "michelf/php-markdown": "^1.8"
     }
     ,
     "require-dev": {
